@@ -28,7 +28,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 # Ejemplo:
 #   REMI_UPDATE_URL = "https://raw.githubusercontent.com/TU_USUARIO/remi/main/pequeno_remi.py"
 # Si dejas la URL vacía (""), la auto-actualización queda desactivada.
-REMI_UPDATE_URL = ""   # ← pega aquí tu URL raw de GitHub
+REMI_UPDATE_URL = "https://raw.githubusercontent.com/Yerkinho/REMI/main/pequeno_remi.py"   # ← pega aquí tu URL raw de GitHub
 
 def _remi_check_update(callback_ui=None):
     """
